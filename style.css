@@ -4,6 +4,7 @@ text
 body {
     margin: 0px;
     text-align: center;
+    text-emphasis-color: white;
     font-family: Georgia,Times,Times New Roman,serif; 
     background-color: rgb(169, 172, 204);
 }
@@ -37,6 +38,7 @@ li{
 div{
     margin: auto;
     width: 80%;
+    padding-bottom: 10px;
 }
 
 table{
@@ -78,6 +80,7 @@ details{
 }
 
 .xiao{
+    height:15em;
     max-width: 50vmax;
     min-width: 20vmin;
     -webkit-transform: scale(1);
@@ -124,6 +127,21 @@ details{
 }
 
 
+div ~ p{
+    background-color: rgb(163, 189, 93);
+}
+
+div + p{
+    background-color:rgb(130, 192, 163);
+}
+
+div p{
+    color: grey;
+}
+
+p.highlight{
+    background-color: rgb(223, 233, 170);
+}
 
 .grid{
     display: grid;
