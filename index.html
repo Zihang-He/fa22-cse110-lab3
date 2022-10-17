@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico">
     <title>Meeting Minutes</title>
 </head>
@@ -13,6 +14,9 @@
         target="_blank">learn_nav</a>
     </nav>
     <header>
+        <p class="team_name">
+            Code Monkez!!
+        </p>
         <h1>Meeting Name</h1>
         <h2>section name</h2>
         <h3>by team name, date</h3>
@@ -20,7 +24,7 @@
     
     <hr>
     <div>
-        <section>
+        <section class="list">
             <h3>attendance list</h3>
             <ul>
                 <li>some team member 1</li>
@@ -38,8 +42,9 @@
         
         <hr>
     
-        <section>
-            <h3>agenda to be covered</h3>
+        <section class="agenda">
+            <img src="logo.jpeg" alt="logo" class="monkey">
+            <h3 style="padding-left:0cm;border-right-width: 100px;padding-right: 150px;">agenda to be covered</h3>
             <table>
                 <tr>
                     <th>unfinished business</th>
@@ -78,60 +83,99 @@
                     <td>
                         ongoing project.
                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        something from last time.
+                    </td>
+                    <td>
+                        new task.
+                    </td>
+                    <td>
+                        ongoing project.
+                    </td>
                 </tr>    
             </table>
         </section>
     </div>
     
+
     
     <hr>
     <main>
-        <strong>Meeting summary</strong>
-        <p>
-            I have no idea on writing a meeting summary because <strong>(a)</strong><em>I never joined
-            a meeting that is so serious that there should be public notes</em> and 
-            <strong>(b)</strong><em>if there is I wouldn't be the person taking notes.</em>
-        </p>
+        <div class="grid">
+            <p class="head">
+                <strong style="color:hsl(189, 44%, 86%)">Meeting summary</strong>
+            </p>
+        
+            <p class="wrong middle">
+                I have no idea on writing a meeting summary because <strong>(a)</strong><em>I never joined
+                a meeting that is so serious that there should be public notes</em> and 
+                <strong>(b)</strong><em>if there is I wouldn't be the person taking notes.</em>
+            </p>
             <br>
             <span>
-                So, instead I'll just put some <i>random stuff</i> below so that if (though I doubt it) 
+                <p id="menu">
+                    Genshin
+                    <li>Xiao</li>
+                    <li>Kazuha</li>
+                </p>
+                <p class="middle2">
+                    So, instead I'll just put some <i>random stuff</i> below so that if (though I doubt it) 
             this meeting minutes is in need I'll replace the stuff with real meeting summary. 
             <b>But here goes:</b>
+                </p>
             </span>
             <br>
-            你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。游戏发生在一个被称作「提瓦特」
+            <p class="right">
+                你说的对，但是《原神》是由米哈游自主研发的一款全新开放世界冒险游戏。游戏发生在一个被称作「提瓦特」
             的幻想世界，在这里，被神选中的人将被授予「神之眼」，导引元素之力。你将扮演一位名为「旅行者」的神秘角色，
             在自由的旅行中邂逅性格各异、能力独特的同伴们，和他们一起击败强敌
+            </p>
+        </div>
             <table>
                 <tr>
                     <td>
                         <img src="https://cdn2.unrealengine.com/key-art-en-3840x2160-b7f18a099f3d.png" 
-            width="500" alt="genshin">
+            width="500" alt="genshin" class="xiao">
                     </td>
                     <td>
                         <img src="https://www.wepc.com/wp-content/uploads/2022/05/Genshin-Impact-Kazuha.png" 
-            width="500" alt="genshin">
+            width="500" alt="genshin" class="wanye">
                     </td>
                 </tr>
             </table>
             
             <br>
-            <details>
-                <summary>studying is fun</summary>
-                that is so not true under so many occations, but yeah try hard to convince ourselves.
-            </details>
-            <details>
-                <summary>上大学哪有不疯的？</summary>
-                上大学的人哪有不疯的？！硬撑罢了！！上大学的人哪有不疯的？！硬撑罢了！！上大学的人哪有不疯的？！硬撑罢了！！
-            上大学的人哪有不疯的？！硬撑罢了！！上大学的人哪有不疯的？！硬撑罢了！！
-            上大学哪有 没关系精神稳定一分钟也很厉害了 没精神稳定关系一分钟也很厉害了 精神稳定一分钟这个发言太过火了 
-            火后很重要应该立刻往锅里下葱姜八角香叶，加入生抽 可乐 放盐，转小火焖十分钟，加水淀粉勾芡，小火收汁 
-            撒上芝麻，这样一道美味的可乐鸡翅就做好了并且漂亮的红色是毁灭蓝色是冷漠绿色是伪装白色是虚无粉色是虚伪
-            紫色是神秘橙色是愤怒黑色是归宿 黄色发给我
-            </details>
+            
+            
             
         
-        
+        <div class="flex-container">
+            <div>
+                <details>
+                    <summary><h3>studying is fun</h3></summary>
+                    <p>No details about that.</p> 
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary><h3>上大学哪有不疯的？</h3></summary>
+                    <p>上大学的人哪有不疯的？！硬撑罢了！！上大学的人哪有不疯的？！硬撑罢了！！上大学的人哪有不疯的？！硬撑罢了！！
+                        上大学的人哪有不疯的？！硬撑罢了！！上大学的人哪有不疯的？！硬撑罢了！！
+                        上大学哪有 没关系精神稳定一分钟也很厉害了 没精神稳定关系一分钟也很厉害了 精神稳定一分钟这个发言太过火了 
+                        火后很重要应该立刻往锅里下葱姜八角香叶，加入生抽 可乐 放盐，转小火焖十分钟，加水淀粉勾芡，小火收汁 
+                        撒上芝麻，这样一道美味的可乐鸡翅就做好了并且漂亮的红色是毁灭蓝色是冷漠绿色是伪装白色是虚无粉色是虚伪
+                        紫色是神秘橙色是愤怒黑色是归宿 黄色发给我</p>
+                </details>
+            </div>
+            <div>
+                <details>
+                    <summary><h3>lab3</h3></summary>
+                    <p>why are there so many content for lab 3</p>
+                </details>
+            </div>
+        </div>
     </main>
     <form>
         <fieldset>
