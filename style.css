@@ -8,13 +8,10 @@ body {
     background-color: rgb(169, 172, 204);
 }
 
-h1{
+h1,h2{
     color: #FFF;
 }
 
-h2{
-    color: aliceblue;
-}
 
 h3{
     color:hsl(189, 44%, 86%);
